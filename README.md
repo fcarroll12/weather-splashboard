@@ -16,5 +16,5 @@ My motivation for this project was to complete an interactive weather dashboard 
 
 ## Credits
 
-Github:
-Live deployed page: 
+Github: https://github.com/fcarroll12/weather-splashboard
+Live deployed page: https://fcarroll12.github.io/weather-splashboard/
