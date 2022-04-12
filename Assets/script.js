@@ -80,3 +80,20 @@ fetch(queryURL)
 //Data for Current Weather API
 //Forecast Weather Data API
 //Search Weather Data API 
+
+//code to refer to: 
+// var getFeaturedRepos = function (language) {
+//     var apiUrl = 'https://api.github.com/search/repositories?q=' + language + '+is:featured&sort=help-wanted-issues';
+  
+//     fetch(apiUrl).then(function (response) {
+//       if (response.ok) {
+//         response.json().then(function (data) {
+//           displayRepos(data.items, language);
+//         });
+//       } else {
+//         alert('Error: ' + response.statusText);
+//       }
+//     });
+//   };
+// for (var i = 0; i < repos.length; i++) {
+//     var repoName = repos[i].owner.login + '/' + repos[i].name;
