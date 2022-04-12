@@ -1,7 +1,10 @@
 var queryURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=c5e2743a27e54bd936717a3a50177cad'
 var city = "";
-var citySearched = (".searchedCity")
-var 
+var citySearched = (".searchedCity");
+var currentTemperature = (".temp");
+var currentHumidity = (".humidity");
+var UVIndex = (".uvIndex");
+var currentWind = (".wind");
 
 fetch(queryURL)
 .then(function (res) {
