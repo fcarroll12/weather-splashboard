@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Splashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assets/style.css">
+</head>
+<body>
+    <header class="container-fluid bg-dark text-center text-light mb-5 p-3">
+        <div class="container">
+            <h1 class="head">Weather Dashboard</h1>
+        </div>
+    </header>
+    <main class="searchBar">
+        <section class="searchContainer">
+            <div>
+                <form id="search-form" method="POST">
+                <input type="text" placeholder="Search for a city" id="cityInput"/>
+                <button id= "submitbtn" type="submit" class="btn-dark"> SEARCH </button>
+                    <i></i>
+                </form>
+            </div>
+        </section>
+        <section class="searchedCity">
+            <section class="card-column">
+                <div id="todayForecast">
+                    <h3 class="cityName" id="currentDate">
+                    <img id="w-icon">
+                    <p class="temp">Current Temp: </p>
+                    <p class="wind">Wind: </p>
+                    <p class="humidity">Humidity: </p>
+                    <p class="uvIndex">UV Index: </p>
+                    </h3>
+                </div>
+            </div>
+            </section>
+            <section class="right-column">
+            <div id="forecast-container">
+                <h3 id="forecast-title">5-Day Forecast: </h3>
+                    <div class="card border-info mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="date-header" id="day1"></h5>
+                            <i class="w-icon"></i>
+                            <p class="temp">Current Temp: </p>
+                            <p class="wind">Wind: </p>
+                            <p class="humidity">Humidity: </p>
+                        </div>
+                    </div>
+                    <div class="card border-info mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="date-header" id="day2"></h5>
+                            <i class="w-icon"></i>
+                            <p class="temp">Current Temp: </p>
+                            <p class="wind">Wind: </p>
+                            <p class="humidity">Humidity: </p>
+                        </div>
+                    </div>
+                    <div class="card border-info mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="date-header"id="day3"></h5>
+                            <i class="w-icon"></i>
+                            <p class="temp">Current Temp: </p>
+                            <p class="wind">Wind: </p>
+                            <p class="humidity">Humidity: </p>
+                        </div>
+                    </div>
+                    <div class="card border-info mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="date-header"id="day4"></h5>
+                            <i class="w-icon"></i>
+                            <p class="temperature">Current Temp: </p>
+                            <p class="wind">Wind: </p>
+                            <p class="humidity">Humidity: </p>
+                        </div>
+                    </div>
+                    <div class="card border-info mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="date-header" id="day5"></h5>
+                            <i class="w-icon"></i>
+                            <p class="temperature">Current Temp: </p>
+                            <p class="wind">Wind: </p>
+                            <p class="humidity">Humidity: </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+     <script src="./Assets/script.js"></script>
+</body>
+</html>

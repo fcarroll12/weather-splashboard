@@ -1,0 +1,18 @@
+:root {
+    font-family: 'Grape Nuts', cursive;
+}
+* {
+    box-sizing: border-box;
+  }
+
+#subtitle {
+    text-align: center;
+    padding-top: 2rem;
+    margin: 10rem;
+}
+
+.card-body {
+   
+    border-radius: 5px;
+    display: inline;
+}
